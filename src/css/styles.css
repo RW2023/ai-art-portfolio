@@ -214,4 +214,9 @@ footer p{
   padding: 0.25em;
 }
 
+nav ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 }
