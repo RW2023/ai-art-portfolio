@@ -1,12 +1,59 @@
 :root {
-  --primary-color: #2c3e50;
-  --secondary-color: #f39c12;
-  --tertiary-color: #ecf0f1;
+  /* Main colors */
+  --primary-color: #27374D;
+  --secondary-color: #FF6B6B;
+  /* Coral, as a contrasting accent color */
+  --tertiary-color: #DDE6ED;
+  /* Lightest blue, for background */
+
+  /* Link color */
+  --link-color: #526D82;
+  /* Medium blue, for links */
+
+  /* Font families */
   --font-family: 'Poppins', sans-serif;
   --title-font-family: 'Ubuntu', sans-serif;
-  --link-color: #3498db;
-}
 
+  /* Additional colors for more detailed control */
+  --primary-color-dark: #27374D;
+  --primary-color-medium: #526D82;
+  --primary-color-light: #9DB2BF;
+  --primary-color-lightest: #DDE6ED;
+
+  /* Text color */
+  --text-color: #F8F9FA;
+  /* Near white for text on dark backgrounds */
+
+  /* Additional contrasting color */
+  --secondary-color-dark: #1B2329;
+  /* Near black for high contrast elements */
+
+  /* Background and overlay */
+  --background: #27374D;
+  /* Dark blue as main background color */
+  --overlay: rgba(184, 193, 236, 0.5);
+  /* Translucent overlay for layered design elements */
+
+  /* Button colors */
+  --button: #FF6B6B;
+  /* Coral for accent color on interactive elements */
+  --button-text: #F8F9FA;
+  /* Near white for text on buttons */
+
+  /* Stroke color for borders and dividers */
+  --stroke: #1B2329;
+  /* Near black for borders and dividers */
+
+  /* Colors for specific sections */
+  --main: #DDE6ED;
+  /* Lightest blue for main content areas */
+  --highlight: #FF6B6B;
+  /* Coral for highlighting or drawing attention */
+
+  /* Shadows */
+  --box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  --text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
 /* Global styles */
 html {
   font-size: 16px;
