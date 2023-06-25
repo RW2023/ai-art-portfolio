@@ -1,67 +1,54 @@
 :root {
   /* Main colors */
   --primary-color: #27374D;
-  --secondary-color: #FF6B6B;
-  /* Coral, as a contrasting accent color */
-  --tertiary-color: #DDE6ED;
-  /* Lightest blue, for background */
+  --secondary-color: #526D82;
+  --tertiary-color: #9DB2BF;
+  --quaternary-color: #DDE6ED;
 
   /* Link color */
-  --link-color: #526D82;
-  /* Medium blue, for links */
+  --link-color: var(--secondary-color);
 
   /* Font families */
   --font-family: 'Poppins', sans-serif;
   --title-font-family: 'Ubuntu', sans-serif;
 
-  /* Additional colors for more detailed control */
-  --primary-color-dark: #27374D;
-  --primary-color-medium: #526D82;
-  --primary-color-light: #9DB2BF;
-  --primary-color-lightest: #DDE6ED;
-
   /* Text color */
-  --text-color: #F8F9FA;
-  /* Near white for text on dark backgrounds */
+  --text-color: #27374D;
 
-  /* Additional contrasting color */
-  --secondary-color-dark: #1B2329;
-  /* Near black for high contrast elements */
-
-  /* Background and overlay */
-  --background: #27374D;
-  /* Dark blue as main background color */
-  --overlay: rgba(184, 193, 236, 0.5);
-  /* Translucent overlay for layered design elements */
+  /* Background */
+  --background: var(--quaternary-color);
 
   /* Button colors */
-  --button: #FF6B6B;
-  /* Coral for accent color on interactive elements */
-  --button-text: #F8F9FA;
-  /* Near white for text on buttons */
+  --button: var(--secondary-color);
+  --button-text: var(--primary-color);
 
   /* Stroke color for borders and dividers */
-  --stroke: #1B2329;
-  /* Near black for borders and dividers */
-
-  /* Colors for specific sections */
-  --main: #DDE6ED;
-  /* Lightest blue for main content areas */
-  --highlight: #FF6B6B;
-  /* Coral for highlighting or drawing attention */
+  --stroke: var(--primary-color-dark);
 
   /* Shadows */
-  --box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
-  --text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 4px 6px 0 var(--primary-color-dark);
+  --text-shadow: 1px 1px 1px var(--primary-color-dark);
 }
+
 /* Global styles */
 html {
   font-size: 16px;
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+/* Toolbar styles */
+.toolbar {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  box-shadow: var(--box-shadow);
+}
+
+.toolbar a {
+  color: var(--text-color);
+}
+
+.toolbar a:hover {
+  color: var(--secondary-color);
 }
 
 body {
@@ -206,4 +193,25 @@ border-radius: 1em;
 footer p{
   text-align: center;
   margin: 1em 0;
+}
+
+.fas fa-palette{
+  padding: 1em;
+}
+
+/* Media query for mobile screen sizes */
+@media (max-width: 768px) {
+  :root {
+    --primary-color: #3C5773;
+    --secondary-color: #769AB2;
+    --box-shadow: 0 2px 3px 0 var(--primary-color-dark);
+    --text-shadow: 1px 1px 1px var(--primary-color-dark);
+  }
+.gallery-subsection img {
+  width: calc(80% - 1em);
+  margin: 1em;
+  margin: auto;
+  padding: 0.25em;
+}
+
 }
