@@ -1,12 +1,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9fb568f5-00dd-4ccc-bf3d-b86a6604a8f5/deploy-status)](https://app.netlify.com/sites/ryanwilsonai/deploys)
 
-# Hey there! Welcome to my Ai Art Portfolio
+# Greetings fellow geek! Welcome to my Ai Art Portfolio
 
-What's up? 👋 I'm glad you dropped by! This is where I've stashed the code for my online portfolio. It's kind of like my digital treehouse – a cool place I've built to show off all the web dev magic tricks I've learned.
+What's up? 👋 I'm glad you dropped by! This is where I've stashed the code for my online portfolio. It's kind of like my digital treehouse – a cool place I've built to show off all the web dev magic tricks I've learned. I am guessing if you are here you already know about all that. 
 
 ## What's this all about?
 
-Basically, it's a multi-section website that's all about... well, me! 😄 There's a gallery that's like a mini museum of my past projects, a contact form to drop me a line, and links to my social media (even LinkedIn!). All wrapped up in a super snazzy, mobile-first design.
+Basically, it's a multi-section website that's all about... well, me and my Ai Art! 😄 There's a gallery that's like sample of some of my projects, a contact form to drop me a line, and links to my social media (even LinkedIn!). All wrapped up in a super snazzy, mobile-first design.
 
 Oh, and speaking of design, I’ve used HTML5, CSS3, and a sprinkle of JavaScript to build this place from the ground up. The CSS has been jazzed up with variables and media queries, and there's a touch of Font Awesome for some icon sparkle.
 
