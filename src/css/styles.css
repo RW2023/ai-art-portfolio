@@ -215,6 +215,10 @@ footer p {
 
 #blog{
   font-family: var(--blog-font-family);
+  border: 1px solid black;
+  border-radius: 1em;
+  box-shadow: var(--box-shadow);
+  padding: 0.5em;
 }
 
 /* Media queries for larger screens */
