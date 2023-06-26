@@ -13,6 +13,7 @@
   /* Font families */
   --font-family: 'Poppins', sans-serif;
   --title-font-family: 'Ubuntu', sans-serif;
+  --blog-font-family: 'Roboto', serif;
 
   /* Text color */
   --text-color: #27374D;
@@ -210,6 +211,10 @@ footer p {
 
 .fas fa-palette {
   padding: 0.5em;
+}
+
+#blog{
+  font-family: var(--blog-font-family);
 }
 
 /* Media queries for larger screens */
