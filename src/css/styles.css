@@ -1,35 +1,19 @@
-/* Base styles for mobile screens */
-
 :root {
-  /* Main colors */
   --primary-color: #3C5773;
   --secondary-color: #769AB2;
   --tertiary-color: #9DB2BF;
   --quaternary-color: #DDE6ED;
-
-  /* Link color */
+  --primary-color-dark: #1F3C5A;
   --link-color: var(--secondary-color);
-
-  /* Font families */
   --font-family: 'Poppins', sans-serif;
   --title-font-family: 'Ubuntu', sans-serif;
   --blog-font-family: 'Roboto', serif;
-
-  /* Text color */
   --text-color: #27374D;
-
-  /* Background */
   --background: var(--quaternary-color);
-
-  /* Button colors */
   --button: var(--secondary-color);
   --button-text: var(--primary-color);
   --highlight: #e67e22;
-
-  /* Stroke color for borders and dividers */
   --stroke: var(--primary-color-dark);
-
-  /* Shadows */
   --box-shadow: 0 2px 3px 0 var(--primary-color-dark);
   --text-shadow: 1px 1px 1px var(--primary-color-dark);
 }
@@ -46,11 +30,9 @@ body {
   background-color: var(--tertiary-color);
 }
 
-/* Toolbar styles */
 .toolbar {
   background-color: var(--primary-color);
   color: var(--text-color);
-  box-shadow: var(--box-shadow);
 }
 
 .toolbar a,
@@ -62,7 +44,7 @@ a,
   text-decoration: none;
 }
 
-p{
+p {
   text-align: justify;
   color: var(--text-color);
 }
@@ -78,24 +60,22 @@ h6 {
   color: var(--text-color);
 }
 
-/* Header styles */
 header {
   position: sticky;
-    top: 0;
-    z-index: 10;
+  top: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
   background-color: var(--tertiary-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav {
   display: flex;
-    position: sticky;
-      top: 0;
-      z-index: 10;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav ul {
@@ -124,7 +104,6 @@ nav a:hover {
   color: var(--tertiary-color);
 }
 
-/* Main content styles */
 main {
   padding: 1rem;
 }
@@ -144,13 +123,6 @@ section h2 {
   justify-content: space-between;
 }
 
-.gallery-subsection img {
-  width: calc(100% - 1rem);
-  margin-bottom: 1rem;
-  box-shadow: var(--box-shadow);
-}
-
-/* Form styles */
 form {
   display: flex;
   flex-direction: column;
@@ -213,7 +185,7 @@ footer p {
   padding: 0.5em;
 }
 
-#blog{
+#blog {
   font-family: var(--blog-font-family);
   border: 1px solid black;
   border-radius: 1em;
@@ -221,15 +193,10 @@ footer p {
   padding: 0.5em;
 }
 
-/* Media queries for larger screens */
-
 @media (min-width: 768px) {
   :root {
-    /* Main colors */
     --primary-color: #27374D;
     --secondary-color: #526D82;
-
-    /* Shadows */
     --box-shadow: 0 4px 6px 0 var(--primary-color-dark);
     --text-shadow: 1px 1px 1px var(--primary-color-dark);
   }
@@ -239,25 +206,12 @@ footer p {
     background-color: var(--tertiary-color);
   }
 
-  header{
+  header {
     height: 10em;
   }
-  .nav ul{
+
+  .nav ul {
     justify-content: space-between;
-  }
-
-  /* Toolbar styles */
-  .toolbar {
-    position: sticky;
-      top: 0;
-      z-index: 1;
-    color: var(--text-color);
-    box-shadow: var(--box-shadow);
-  }
-
-  .toolbar a,
-  .toolbar a:hover {
-    color: var(--text-color);
   }
 
   nav ul {
@@ -276,15 +230,10 @@ footer p {
 
   section {
     margin: 2rem 0;
-    box-shadow: var(--box-shadow);
   }
 
   section h2 {
     margin-bottom: 1rem;
-  }
-
-  .gallery-subsection img {
-    width: calc(33.33% - 1rem);
   }
 
   form {
@@ -325,28 +274,17 @@ footer p {
   }
 }
 
-/* Modal Styling */
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 12;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
 }
 
 .modal-content {
@@ -370,11 +308,9 @@ footer p {
   text-decoration: none;
   cursor: pointer;
 }
-/* Modal Styling End  */
 
-/* Media Query for Larger Screens */
 @media screen and (min-width: 1000px) {
   .gallery-subsection img {
-      width: calc(30% - 1rem);
-    }
+    width: calc(30% - 1rem);
+  }
 }
