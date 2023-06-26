@@ -230,6 +230,13 @@ footer p {
     background-color: var(--tertiary-color);
   }
 
+  header{
+    height: 10em;
+  }
+  .nav ul{
+    justify-content: space-between;
+  }
+
   /* Toolbar styles */
   .toolbar {
     position: sticky;
