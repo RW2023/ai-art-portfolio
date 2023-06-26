@@ -139,6 +139,7 @@ section h2 {
 .gallery-subsection img {
   width: calc(100% - 1rem);
   margin-bottom: 1rem;
+  box-shadow: var(--box-shadow);
 }
 
 /* Form styles */
@@ -224,6 +225,9 @@ footer p {
 
   /* Toolbar styles */
   .toolbar {
+    position: sticky;
+      top: 0;
+      z-index: 1;
     color: var(--text-color);
     box-shadow: var(--box-shadow);
   }
