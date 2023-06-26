@@ -79,6 +79,9 @@ h6 {
 
 /* Header styles */
 header {
+  position: sticky;
+    top: 0;
+    z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,6 +92,9 @@ header {
 
 nav {
   display: flex;
+    position: sticky;
+      top: 0;
+      z-index: 10;
 }
 
 nav ul {
