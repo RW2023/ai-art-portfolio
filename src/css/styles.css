@@ -164,6 +164,7 @@ img {
   border: 1px solid var(--stroke);
   border-radius: 1em;
   box-shadow: var(--box-shadow);
+  margin: 0.25em 0;
 }
 
 .social-links {
