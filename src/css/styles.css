@@ -72,7 +72,7 @@ header {
   padding: 1rem;
   background-color: var(--tertiary-color);
   height: 9em;
-    box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 nav {
@@ -186,7 +186,7 @@ footer p {
   margin: 0.5em 0;
 }
 
-.fas fa-palette {
+.fas.fa-palette {
   padding: 0.5em;
 }
 
@@ -212,27 +212,27 @@ footer p {
   }
 
   header {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 1em;
-  text-align: center;
-}
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1em;
+    text-align: center;
+  }
 
-h1{
-  margin: 0;
-  font-size: 0.25em;
+  h1 {
+    margin: 0;
+    font-size: 0.25em;
 
-}
- 
+  }
+
   .nav ul {
     justify-content: space-between;
     align-items: flex-start;
@@ -334,7 +334,8 @@ h1{
 }
 
 @media screen and (min-width: 768px) {
-h1,
+
+  h1,
   h2,
   h3,
   h4,
