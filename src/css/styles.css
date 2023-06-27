@@ -18,6 +18,23 @@
   --text-shadow: 1px 1px 1px var(--primary-color-dark);
 }
 
+body.light {
+  --primary-color: #A1B9CF;
+  --secondary-color: #C4DBEA;
+  --tertiary-color: #DEEBF4;
+  --quaternary-color: #F4F8FA;
+  --primary-color-dark: #6D8BA1;
+  --link-color: var(--secondary-color);
+  --text-color: #4A6572;
+  --background: var(--quaternary-color);
+  --button: var(--secondary-color);
+  --button-text: var(--primary-color-dark);
+  --highlight: #FFAB40;
+  --stroke: var(--primary-color-dark);
+  --box-shadow: 0 2px 3px 0 var(--primary-color-dark);
+  --text-shadow: 1px 1px 1px var(--primary-color-dark);
+}
+
 html {
   font-size: 16px;
   box-sizing: border-box;
